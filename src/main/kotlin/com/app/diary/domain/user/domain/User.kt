@@ -23,6 +23,8 @@ class User(
 
     var authority: Authority,
 
+    var roomName: String,
+
     @Embedded
     var roomCode: RoomCode
 ) {
