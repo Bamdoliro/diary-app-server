@@ -9,8 +9,8 @@ import org.springframework.security.config.http.SessionCreationPolicy
 import org.springframework.security.web.SecurityFilterChain
 import org.springframework.web.cors.CorsUtils
 
-@EnableWebSecurity
 @Configuration
+@EnableWebSecurity
 class SecurityConfig {
 
     @Bean

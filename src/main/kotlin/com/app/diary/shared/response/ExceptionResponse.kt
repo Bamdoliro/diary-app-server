@@ -1,6 +1,7 @@
 package com.app.diary.shared.response
 
-class ExceptionResponse(
+
+data class ExceptionResponse(
     val status:Int,
     val message:String
 ) {
