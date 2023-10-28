@@ -31,6 +31,14 @@ spring:
     livereload:
       enabled: true
 
+auth:
+  jwt:
+    header: ${HEADER}
+    secret: ${SECRET}
+    accessExp: ${ACCESS-EXP}
+    refreshExp: ${REFRESH-EXP}
+    prefix: ${PREFIX}
+
 decorator:
   datasource:
     p6spy:
